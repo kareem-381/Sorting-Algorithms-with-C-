@@ -11,13 +11,14 @@ int main()
     for (int i = 0; i<size-1; i++)
     {
         int smallest_num = i ;
-        for(int j = i+1;j<size; j++)
+        for(int j = i+1; j<size; j++)
         {
-            if (arr[j]<arr[smallest_num])
+            if (arr[j] < arr[smallest_num])
             {
-                swap(arr[j],arr[smallest_num]);
+                smallest_num = j;
             }
         }
+        swap(arr[i],arr[smallest_num]);
     }
 
     for (int i =0; i<size;i++)
