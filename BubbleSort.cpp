@@ -25,3 +25,6 @@ int main()
     
     return 0;
 }
+
+
+// In Best, Worst, Average Case the time complexity is n^2
