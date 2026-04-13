@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int const size = 5;
+    const int size = 5;
     int arr[size]={10,25,35,7,3};
 
     for (int i = 0; i<size-1; i++)
